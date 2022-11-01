@@ -100,4 +100,8 @@ milesToKilometre(310783)
 //}
 //findDifference([1,3,3], [1,1,3])
 
-
+// ------------------------- Enumerable Magic #25 - Take the First N Elements *
+//func take(_ arr: [Int], _ n: Int) -> [Int] {
+//    Array(arr.prefix(n))
+//}
+//take([1,2,4,5,8], 3)
