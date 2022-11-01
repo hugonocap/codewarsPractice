@@ -93,3 +93,11 @@ milesToKilometre(310783)
 //func multiply(_ a: Double, _ b: Double) -> Double {
 //    a * b
 //}
+
+// ---------------------------------------- Difference of Volumes of Cuboids *
+//func findDifference(_ a: [Int], _ b: [Int]) -> Int {
+//    abs(a.reduce(1, *) - b.reduce(1, *))
+//}
+//findDifference([1,3,3], [1,1,3])
+
+
