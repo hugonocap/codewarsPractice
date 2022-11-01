@@ -78,24 +78,14 @@ milesToKilometre(310783)
 //firstNonConsecutive([1,3,4,5])
 
 // ---------------------------------------- Lost Without a map *
-func maps(a : Array<Int>) -> Array<Int> {
-   a.map { $0 * 2 }
-}
-maps(a: [2, 5, 7, 84])
+//func maps(a : Array<Int>) -> Array<Int> {
+//   a.map { $0 * 2 }
+//}
+//maps(a: [2, 5, 7, 84])
 
-func fakeBin(_ digits: String) -> String {
-    digits.map { Int(String($0))! < 5 ? "0" : "1" }.joined()
-}
-fakeBin("02983943071")
+// ---------------------------------------- Gravity Flip *
+//func flip(_ direction: String, _ a: [Int]) -> [Int] {
+//    a.sorted(by: direction.uppercased() == "R" ? (<) : (>))
+//}
+//flip("r", [1,3,2,6,3])
 
-func multiply(_ firstInt: Int, _ secondInt: Int) -> Int {
-    firstInt * secondInt
-}
-multiply(4, 21)
-
-func firstNonConsecutive(_ arr: [Int]) -> Int? {
-    guard !arr.isEmpty else { return nil }
-    return arr.enumerated().first(where: { arr[0] + $0 != $1 })?.element
-}
-
-firstNonConsecutive([1,4])
