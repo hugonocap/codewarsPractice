@@ -89,3 +89,7 @@ milesToKilometre(310783)
 //}
 //flip("r", [1,3,2,6,3])
 
+// ---------------------------------------- Multiply debug *
+//func multiply(_ a: Double, _ b: Double) -> Double {
+//    a * b
+//}
