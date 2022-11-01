@@ -6,10 +6,15 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXFileReference section */
+		D9877B36291165230068A77B /* Kyu 8.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Kyu 8.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		D9877B2F291165050068A77B = {
 			isa = PBXGroup;
 			children = (
+				D9877B36291165230068A77B /* Kyu 8.playground */,
 			);
 			sourceTree = "<group>";
 		};
